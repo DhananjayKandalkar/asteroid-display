@@ -1,4 +1,4 @@
-import { useState } from "react";
+import React from "react";
 import "./App.css";
 import AllRoutes from "./AllRoutes/AllRoutes";
 
@@ -11,5 +11,11 @@ function App() {
   )
 }
 
+
+// // custom function for class base 
+// export function AppWithRouter(props){
+//   const navigate = useNavigate()
+//   return (<App navigate={navigate}></App>)
+// }
 
 export default App;

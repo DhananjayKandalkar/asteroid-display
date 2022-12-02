@@ -13,3 +13,33 @@
   border: 1px solid black;
   padding: 2rem;
 }
+
+
+/* class base */
+.randomlist-container{
+  margin-top: 4rem;
+}
+.form{
+  padding-bottom: 2rem;
+}
+
+button{
+  background-color: green;
+  color: black;
+  padding: 1rem;
+  margin-top: 2rem;
+}
+
+.submit{
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 0.5rem;
+  margin-left: 1rem;
+  border-radius: 22px;
+}
+
+.loading-status{
+  color: red;
+  font-weight: 600;
+}
